@@ -8,9 +8,9 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App bg-image bg-cover">
-      <Navbar />
-      <div className="mt-[800px] text-white">
+    <div className="App bg-image bg-cover bg-center">
+      <Navbar/>
+      <div className="flex flex-col text-white">
         <Home />
         <About />
         <Projects />
