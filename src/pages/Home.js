@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="px-[400px] my-[100px] ">
+      <div className="px-[400px] my-[120px] ">
         <div className="flex flex-col justify-center items-center">
           <img
             src="https://media-exp1.licdn.com/dms/image/C5603AQFppjPNkBEjpA/profile-displayphoto-shrink_400_400/0/1656403861773?e=1672876800&v=beta&t=IQBS3hUUp3UJbzDaejyAEnykntCQ1h43VvZ26CEvfeQ"
@@ -55,7 +55,7 @@ const Home = () => {
           <label className="text-sm mt-[10px] text-gray-500">
             Full-stack Web3 Developer
           </label>
-          <label className="mt-[30px] text-6xl font-semibold">Passionate</label>
+          <label className="mt-[50px] text-6xl font-semibold">Passionate</label>
           <label className="text-6xl font-semibold">to craft amazing</label>
           <label className="text-6xl font-semibold">digital product.</label>
         </div>
