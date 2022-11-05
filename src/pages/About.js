@@ -2,12 +2,16 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-        <label className='text-left'>I love creating something simple and useful</label>
+    <div className='px-[200px] m-[100px]'>
+        <div className='flex flex-col text-left mb-[50px]'>
+        <label className='text-5xl'>I love to create</label>
+        <label className='text-5xl'>something</label>
+        <label className='text-5xl'>simple and useful</label>
+        </div>
         <div className='flex flex-col justify-center items-center'>
             <br/>
-            <label>About Me</label>
-            <label>I am a lifelong learner with experience in Full Stack Development and Automation. I am extremly passionate about writing code that has an impact and can bring ideas to life.In addition to development, I enjoy playing LoL, travelling, watching anime, listening to music, reading fiction and helping communities and individuals.</label>
+            <label className='text-6xl font-semibold mb-[40px]'>About Me</label>
+            <label className='text-left text-2xl'>I am a lifelong learner with experience in Full Stack Development in Web2 and Web3. I am extremly passionate about writing code that has an impact and can bring ideas to life.In addition to development, I enjoy playing LoL, travelling, listening to music, reading fiction and helping communities and individuals.</label>
         </div>
     </div>
   )
