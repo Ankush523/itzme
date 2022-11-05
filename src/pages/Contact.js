@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='snap-end my-[400px]'>
+        Contact
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='snap-start snap-always py-[400px]'>
+        Projects
+    </div>
   )
 }
 
